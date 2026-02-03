@@ -219,3 +219,12 @@ body{
   .hero{ padding-top: 34px; }
   .cards{ grid-template-columns: 1fr; }
 }
+/* ===== ANTI-GHOST (kills accidental duplicate text layers) ===== */
+.h1::before, .h1::after,
+.hero::before, .hero::after,
+.shell::before, .shell::after,
+.bg::before {
+  content: none !important;
+  display: none !important;
+}
+
