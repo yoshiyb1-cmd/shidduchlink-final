@@ -13,7 +13,7 @@ export default function Home() {
         </header>
 
         <section className="hero">
-          <h1 className="h1">A refined, privacy-first shidduch platform.</h1>
+          <h1 className="h1">A CUUUUUUTIE.</h1>
 
           <p className="lede">
             ShidduchLink is built for serious singles (28–40), professional matchmakers, and family advocates.
